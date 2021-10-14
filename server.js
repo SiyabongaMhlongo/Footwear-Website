@@ -1,20 +1,65 @@
-if(process.env.NODE_ENV !== 'production') {
-    require('dotenv').config()
+if (process.env.NODE_ENV !== "production") {
+    require("dotenv").config({path:".env"})
 }
+
+const stripePublicKey = process.env.STRIPE_PUBLIC_KEY
+const stripeSecretKey = process.env.STRIPE_SECRET_KEY
+
+console.log(stripeSecretKey, stripePublicKey)
+
 
 const express = require('express')
 const app = express()
-
+const fs = require('fs')
+const stripe = require('stripe')(stripeSecretKey)
 
 
 app.set('view engine', 'ejs')
-app.use(express.urlencoded({extended: false }))
+app.use(express.json())
+app.use(express.static('public'))
 
-
-
-app.get('/' , (req, res) => {
-    res.render('shop.ejs')
+app.get('/shop', function(req, res){
+    fs.readFile('items.json', function(error, data){
+        if(error){
+            res.status(500).end()
+        }else{
+            res.render('shop.ejs', {
+                stripePublicKey: stripePublicKey,
+                items: JSON.parse(data)
+            })
+        }
+    })
 })
+
+app.post('/purchase', function(req, res){
+    fs.readFile('items.json', function(error, data){
+        if(error){
+            res.status(500).end()
+        }else{
+            const itemsJson = JSON.parse(data)
+            const itemsArray = itemsJson.shop
+            let total = 0
+            req.body.items.forEach(function(item){
+                const itemJson = itemsArray.find(function(i){
+                    return i.id == item.id
+                })
+                total = total + itemJson.price
+            })
+            stripe.charges.create({
+                amount: total,
+                source: req.body.stripeTokenId,
+                currency:'zar'
+            }).then(function(){
+                console.log('Charge Successful')
+                res.json({message: 'Successfully purchased items' })
+            }).catch(function(){
+                console.log('Charge Failed')
+                res.status(500).end()
+            })
+        }
+    })
+})
+
 
 
 app.listen(process.env.PORT || 3000)

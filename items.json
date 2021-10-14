@@ -1,0 +1,134 @@
+{
+    "shop": [
+        {
+            "id": 1,
+            "name": "AIR JORDAN 1",
+            "color": "Retro Chicago",
+            "price": 213123,
+            "imgName": "jade-scarlato-Retro Chicago2.png"
+
+        },
+        {
+            "id": 2,
+            "name": "AIR JORDAN 1",
+            "color": "Retro Pine Green",
+            "price": 267821,
+            "imgName": "jade-scarlato-pinegreen2.png"
+
+        },
+        {
+            "id": 3,
+            "name": "AIR JORDAN 1",
+            "color": "Black Game Royal",
+            "price": 197394,
+            "imgName": "jade-scarlato-Black Game Royal 2.png"
+
+        },
+        {
+            "id": 4,
+            "name": "AIR JORDAN 1",
+            "color": "High OG WMNS",
+            "price": 190238,
+            "imgName": "jade-scarlato-High OGS WMNS.png"
+
+        },
+        {
+            "id": 5,
+            "name": "NIKE AIRMAX 90",
+            "color": "Ultra Br Racer Blue",
+            "price": 179846,
+            "imgName": "alexander-rotker-nike blue-removebg-preview.png"
+
+        },
+        {
+            "id": 6,
+            "name": "NIKE FREE RW FLYKNIT",
+            "color": "Olive",
+            "price": 219865,
+            "imgName": "regis-hari-olive-removebg-preview.png"
+
+        },
+        {
+            "id": 7,
+            "name": "NIKE FREE RUN DISTANCE",
+            "color": "Red Orange",
+            "price": 193275,
+            "imgName": "revolt-164_6wVEHfI-nike red -preview.png"
+
+        },
+        {
+            "id": 8,
+            "name": "NIKE SB CIVILIST X DUNK LOW",
+            "color": "PRO SB QS",
+            "price": 428010,
+            "imgName": "ox-street-eYGduu6ROcw-unsplash-removebg-preview.png"
+
+        },
+        {
+            "id": 9,
+            "name": "Air JORDAN 4",
+            "color": "Bred",
+            "price": 764711,
+            "imgName": "ox-street-kmxgTOvNrNo-unsplash-removebg-preview.png"
+
+        },
+        {
+            "id": 10,
+            "name": "NIKE AIRMAX 90",
+            "color": "Dia De Muertos",
+            "price": 477945,
+            "imgName": "ox-street-Le0o8Ac_Eco-unsplash-removebg-preview.png"
+
+        },
+        {
+            "id": 11,
+            "name": "NIKE VAPORWAFFLE SACIA",
+            "color": "Black + White",
+            "price": 570680,
+            "imgName": "ox-street-M7FgCUcJE1s-unsplash-removebg-preview.png"
+
+        },
+        {
+            "id": 13,
+            "name": "NIKE DUNK LOW SP RETRO",
+            "color": "Veneer",
+            "price": 574960,
+            "imgName": "ox-street-ttwK7zDRjLw-unsplash-removebg-preview.png"
+
+        },
+        {
+            "id": 13,
+            "name": "Asics Soft Gel Lyte V",
+            "color": "Blueprint",
+            "price": 190238,
+            "imgName": "maksim-larin-jZyacqaR4iI-unsplash-removebg-preview.png"
+
+        }, 
+        {
+            "id": 14,
+            "name": "NIKE AIR FORCE 1",
+            "color": "Wheat Brown Black",
+            "price": 150701,
+            "imgName": "maksim-larin-NOpsC3nWTzY-unsplash-removebg-preview.png"
+
+        },
+        {
+            "id": 15,
+            "name": "AIRMAX 90",
+            "color": "Suede Green",
+            "price": 349899,
+            "imgName": "nikita-kachanovsky-ad_0wMHtvlU-unsplash-removebg-preview.png"
+
+        },
+        {
+            "id": 16,
+            "name": "NIKE AIR FORCE 1",
+            "color": "1 Shadow",
+            "price": 199995,
+            "imgName": "ryan-plomp-jvoZ-Aux9aw-unsplash-removebg-preview.png"
+
+        }
+      
+    ]
+
+}

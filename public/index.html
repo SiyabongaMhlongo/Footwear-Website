@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootWear Website</title>
+    <link rel="Stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header class="l-header" id="header">
+        <nav class="nav bd-grid">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bxs-grid"></i>
+            </div>
+
+            <a href="#" class="nav__logo">FootWear</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#featured" class="nav__link">Featured</a></li>
+                    <li class="nav__item"><a href="#athletic" class="nav__link">Athletic</a></li>
+                    <li class="nav__item"><a href="#authentic" class="nav__link">Authetic</a></li>
+                    <li class="nav__item"><a href="shop" class="nav__link">Shop</a></li>
+                </ul>
+
+            </div>
+
+            <!--CART INFO-->
+
+            <div class="cart__info" id="cart-info">
+                <span class="cart__info-icon"><i class="bx bx-shopping-bag" ></i></span>
+                    <p class="cart__detail"><span class="items__count" id="item-count"></span> - R<span class="item__total" id="item-total"></span></p>        
+            </div>
+
+       
+        </nav>
+    </header>
+    
+
+<main class="l-main">
+<!--HomePage-->
+<section class="home" id="home">
+    <div class="home__container bd-grid">
+        <div class="home__sneaker">
+            <div class="home__shape">
+                <img src="Main Image/jade-scarlato-1zBPoVwS_Jo-unsplash-removebg-preview.png" alt="" class="home__img">
+            </div>
+        </div>
+
+         <div class="home__data">
+            <span class="home__new">New in</span>
+            <h1 class="home__title">AIR JORDAN 1 <br> RETRO HIGH OG YELLOW</h1> 
+            <p class="home__description">Explore the new collection of sneakers!</p>
+            <a href="#" class="button">Explore Now</a>
+         </div>
+
+    
+    </div>
+
+
+ </section>
+
+ 
+
+  <!--Featured-->
+  <section class="featured section" id="featured">
+      <h2 class="section-title">FEATURED</h2>
+     
+      <div class="featured__container bd-grid">
+        <article class="sneaker">
+            <div class="sneaker__sale">SALE</div>
+            <img src="Img/jade-scarlato-Retro Chicago2.png" alt="" class="sneaker__img">
+                    <span class="sneaker__name" id="store-item-name"></span>
+                    <span class="sneaker__color" id="item-color"> Retro Chicago</span>
+                    <span class="sneaker__price" >R <strong class="item__price">2131.23</strong></span>
+                    <span href="" class="button-light" id=>Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></span>          
+        </article>
+   
+
+        <article class="sneaker">
+            <div class="sneaker__sale">SALE</div>
+             <img src="Img/jade-scarlato-pinegreen2.png" alt="" class="sneaker__img">
+             <span class="sneaker__name" >AIR JORDAN 1</span>
+             <span class="sneaker__color"> Retro Pine Green</span>
+             <span class="sneaker__price">R <strong class="item__price">2678.21</strong></span>
+             <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></span>
+         </article>
+
+     
+         <article class="sneaker">
+             <div class="sneaker__sale">SALE</div>
+              <img src="Img/jade-scarlato-Black Game Royal 2.png" alt="" class="sneaker__img">
+              <span class="sneaker__name" >AIR JORDAN 1</span>
+              <span class="sneaker__color"> Black Game Royal</span>
+              <span class="sneaker__price">R <strong class="item__price">1973.94</strong></span>
+              <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></span>
+          </article>
+    
+          <article class="sneaker">
+             <div class="sneaker__sale">SALE</div>
+              <img src="Img/jade-scarlato-High OGS WMNS.png" alt="" class="sneaker__img">
+              <span class="sneaker__name" >AIR JORDAN 1</span>
+              <span class="sneaker__color"> HIGH OG WMNS "Tie Dye"</span>
+              <span class="sneaker__price">R <strong class="item__price">1902.38</strong></span>
+              <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></span>
+          </article>
+        
+      </div>
+  </section>
+
+<!--Collection-->
+<section class="collection section">
+    <div class="collection__container bd-grid">
+
+        <div class="collection__card">
+            <div class="collection__data">
+                <h3 class="collection__name">Addidas</h3>
+                <p class="collection__description">New Collection 2021</p>
+                <a href="#" class="button-light">Buy Now <i class="bx bx-right-arrow-alt button-icon"></i></a>
+            </div>
+            <img src="New Collection Images/wassim-chouak-addidas removebg-preview.png" alt="" class="collection__img">
+           </div>
+
+           <br>
+
+        <div class="collection__card">
+         <div class="collection__data">
+             <h3 class="collection__name">Nike</h3>
+             <p class="collection__description">New Collection 2021</p>
+             <a href="#" class="button-light">Buy Now <i class="bx bx-right-arrow-alt button-icon"></i></a>
+         </div>
+         <img src="New Collection Images/danilo-capece-nike removebg-preview.png" alt="" class="collection__img">
+        </div>
+    </div>
+</section>
+
+
+<!--Athletic Sneakers-->
+
+<section class="athletic" id="athletic">
+    <h2 class="section-title">ATHLETIC SNEAKERS</h2>
+
+  <div class="athletic__container bd-grid">
+    <article class="sneaker">
+        <img src="Img/alexander-rotker-nike blue-removebg-preview.png" alt="" class="sneaker__img1">
+        <span class="sneaker__name">NIKE AIRMAX 90</span>
+        <span class="sneaker__color"> Ultra Br Racer Blue</span>
+        <span class="sneaker__price">R <strong class="item__price">1798.46</strong></span>
+        <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></span>
+    </article>
+        
+
+
+      <article class="sneaker">
+        <img src="Img/regis-hari-olive-removebg-preview.png" alt="" class="sneaker__img">
+        <span class="sneaker__name">NIKE FREE RW FLYKNIT</span>
+        <span class="sneaker__color"> Olive</span>
+        <span class="sneaker__price">R <strong class="item__price">2198.65</strong></span>
+         <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></span>
+      </article>
+
+
+
+    <article class="sneaker">
+        <img src="Img/revolt-164_6wVEHfI-nike red -preview.png" alt="" class="sneaker__img">
+        <span class="sneaker__name">NIKE FREE RUN DISTANCE</span>
+        <span class="sneaker__color"> Red Orange</span>
+        <span class="sneaker__price">R <strong class="item__price">1932.75</strong></span>
+        <span href="" class="button-light">Add to Cart <i class="bx bx-right-arrow-alt button-icon"></i></span>
+    </article>
+ </div> 
+</section>
+
+
+<!--offers-->
+
+<section class="offer section">
+    <div class="offer__container bd-grid">
+        <div class="offer__data">
+            <h3 class="offer__title">50% OFF</h3>
+            <p class="offer__description">VANS CHECKERBOARD SLIP-ON</p>
+            <a href="#" class="button">Shop Now</a>
+        </div>
+
+        <img src="Offers/devin-avery-bTqRXuQJ0xo-unsplash-removebg-preview.png" alt="" class="offer__img">  
+    </div>
+</section>
+
+
+<!--New Collection-->
+
+<section class="authentic" id="authentic">
+    <h2 class="section-title">AUTHENTIC</h2>
+
+    <div class="new__container bd-grid">
+        <div class="new__authentics">
+            <img src="Authentic Shoes Images/erik-mclean-ByjIzFupcHo-unsplash-removebg-preview.png" alt="" class="new__authentic-img">
+            <h3 class="new__title">Authentic Shoes</h3>
+            <span class="new__price">From R2400</span>
+            <span href="" class="button-light">VIEW COLLECTION NOW<i class="bx bx-right-arrow-alt button-icon"></i></span>    
+        </div>
+
+
+        <div class="new__sneaker">
+            <div class="new__sneaker-card">
+                <img src="Img/ox-street-eYGduu6ROcw-unsplash-removebg-preview.png" alt="" class="new__sneaker-img">
+                <div class="new__sneaker-overlay">
+                    <a href="./shop.html#nikesb" class="button">Add to Cart</a>
+                </div>
+            </div>
+
+             <div class="new__sneaker-card">
+                <img src="Img/ox-street-kmxgTOvNrNo-unsplash-removebg-preview.png" alt="" class="new__sneaker-img">
+                <div class="new__sneaker-overlay">
+                    <a href="./shop.html#jordan" class="button">Add to Cart</a>
+                </div>
+             </div>
+
+             <div class="new__sneaker-card">
+                <img src="Img/ox-street-M7FgCUcJE1s-unsplash-removebg-preview.png" alt="" class="new__sneaker-img">
+                <div class="new__sneaker-overlay">
+                    <a href="./shop.html#vaporwaffle" class="button">Add to Cart</a>
+                </div>
+             </div>
+
+              <div class="new__sneaker-card">
+                <img src="Img/ox-street-ttwK7zDRjLw-unsplash-removebg-preview.png" alt="" class="new__sneaker-img">
+                <div class="new__sneaker-overlay">
+                    <a href="./shop.html/dunklow" class="button">Add to Cart</a>
+                </div>
+              </div>
+
+            <div class="new__sneaker-card">
+                <img src="Img/ox-street-Le0o8Ac_Eco-unsplash-removebg-preview.png" alt="" class="new__sneaker-img">
+                <div class="new__sneaker-overlay">
+                    <a href="./shop.html#airmax-90" class="button">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--Newsletter-->
+
+<section class="newsletter section">
+<div class="newsletter__container bd-grid">
+    <div>
+        <h3 class="newsletter__title">Subscribe To Get <br> 10% OFF</h3>
+        <p class="newsletter__description">Get 10% discount of all products</p>
+    </div>
+
+    <form action="" class="newsletter__subscribe" id ="newsletter__subscribe">
+        <input id="email" type="email" placeholder="@email.com" class="newsletter__input">
+        <a href="#" class="button">Subscribe</a>
+
+
+    </form>
+</div>
+</section>
+
+<!--Footer-->
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <div class="footer__box">
+            <h3 class="footer__title">FootWear</h3>
+            <p class="footer__description">New collection of shoes 2021</p>
+        </div>
+
+        <div class="footer__box">
+            <h3 class="footer__title">EXPLORE</h3>
+            <ul>
+                <li><a href="#home" class="footer__link">Home</a></li>
+                <li><a href="#featured" class="footer__link">Featured</a></li>
+                <li><a href="#athletic" class="footer__link">Athletic</a></li>
+                <li><a href="#authentic" class="footer__link">Authentic</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__box">
+            <h3 class="footer__title">SUPPORT</h3>
+            <ul>
+                <li><a href="./contactform.html#contact" class="footer__link">Contact form</a></li>
+                <li><a href="./login.html" class="footer__link">Login</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__box">
+            <a href="#" class="footer__social"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="footer__social"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="#" class="footer__social"><i class="bx bxl-twitter" ></i></a>
+            <a href="#" class="footer__social"><i class="bx bxl-google"></i></a>
+        </div>
+
+    </div>
+
+
+    <p class="footer__copy">&#169; 2021 Siyabonga Mhlongo, All right reserved</p>
+</footer>
+
+     <!--CART ITEM-->
+     <div class="cart" id="cart">
+
+        <!--HTML TEMPLETE THAT BECOMES JS TEMPLETE-->
+        <!--<div class="cart__item">
+            <img src="img-cart/jade-scarlato-Black Game Royal 2.png" class="item__img" id="item-img" alt="">
+            <div class="item__text" id="item-text">
+                <p class="item__title" id="cart-item-title">Cart Item</p>
+                <span class="item__color" id="cart-item-color">Black Game Royal</span><br>
+                <label for="size">Size: </label>
+                <select class="item__size" id="cart-item-size" >
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select><br>
+                <span>R</span>
+                <span class="item__price" id="cart-item-price">1973.94</span>
+                <span href="#" class="item__remove" id="cart-item-remove"><i class="bx bxs-trash-alt"></i></span>
+          </div>      
+       </div>   -->   
+
+       
+
+       <div class="cart-total__container">
+            <span >Total</span>
+            <span>R <strong class="cart__total"id="cart-total">0</strong></span>
+        </div>
+
+        <div class="cart-buttons__container">
+            <a href="#" id="checkout-button" class="checkout__button">Checkout</a>   
+        </div>
+    </div>      
+
+
+
+
+
+
+</main>
+
+ <!--SCRIPTS-->
+    
+ 
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+</html>
