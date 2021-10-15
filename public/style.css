@@ -109,6 +109,28 @@ img{
     background-color:var(--dark-color);
 }
 
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--white-color);
+ 
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--dark-color);
+    height: 50px;
+    border-radius: 5px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+
 
 /* LAYOUT */
 
@@ -287,6 +309,7 @@ transform: translateY(-2.5rem);
     top:var(--header-height);
     right: -100%;
     padding: 1rem;
+    overflow: scroll;
     height: 100vh;
     width: 60%;
     transition:.5s;
