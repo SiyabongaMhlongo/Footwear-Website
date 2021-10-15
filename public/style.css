@@ -383,6 +383,7 @@ transform: translateY(-2.5rem);
     border-radius: .5rem;
     transition: .3s;
     margin-left: 15px;
+    margin-bottom: 50px;
 }
 
 .cart-buttons__container{
