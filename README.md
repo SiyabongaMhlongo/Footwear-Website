@@ -1,6 +1,6 @@
 # Footwear-Website
 
-Websiite Description:
+Website Description:
 - Responsive Website Design 
 - Ecommerce: users are able to add items to cart
 - Checkout System: Using Stripe Package
